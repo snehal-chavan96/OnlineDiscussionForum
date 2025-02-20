@@ -8,7 +8,7 @@ Students often face unorganized coding discussions across multiple platforms (Wh
 ## Screenshots
 
 ### Dashboard Page
-![Dashboard Page](frontend/screenshots/dashboard.png)
+![Dashboard](frontend/screenshots/dashboard.png)
 
 ### SignUp Page
 ![SignUp Page](frontend/screenshots/signUp.png)
