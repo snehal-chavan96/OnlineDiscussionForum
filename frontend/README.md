@@ -11,16 +11,16 @@ Students often face unorganized coding discussions across multiple platforms (Wh
 ![Dashboard](screenshots/dashboard.png)
 
 ### SignUp Page
-![SignUp Page](frontend/screenshots/signUp.png)
+![SignUp Page](screenshots/signUp.png)
 
 ### SignIn Page
-![SignIn Page](frontend/screenshots/signIn.png)
+![SignIn Page](screenshots/signIn.png)
 
 ### Discussion Page
-![Discussion Page](frontend/screenshots/discussion.png)
+![Discussion Page](screenshots/discussion.png)
 
 ### New Discussion & Ask Mentor Page
-![New Discussion & Ask Mentor Page](frontend/screenshots/newDiscussion.png)
+![New Discussion & Ask Mentor Page](screenshots/newDiscussion.png)
 
 
 ## 🚀 Challenges to Address  
