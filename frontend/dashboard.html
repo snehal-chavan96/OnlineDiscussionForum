@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discussion Forum Dashboard</title>
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>10X</h2>
+        <ul>
+            <li><a href="dashboard.html"><i class="fas fa-comments"></i> Discussion</a></li>
+            <li><a href="newDiscussion.html"><i class="fas fa-chalkboard-teacher"></i> Ask Mentor</a></li>
+            <li><a href="#"><i class="fas fa-book"></i> AI Learning Suggestions</a></li>
+        </ul>
+    </div>
+    
+    <div class="main-content">
+        <div class="top-bar">
+            <input type="text" placeholder="Type here..." id="search-bar">
+            <button id="search-btn">Search</button>
+            <div class="icons">
+                <span><i class="fas fa-home"></i></span>
+                <span><i class="fas fa-trophy"></i></span>
+                <span><i class="fas fa-user"></i> Profile</span>
+            </div>
+        </div>
+        
+        <h3>Learn, Collaborate, and Grow with Expert Mentorship!</h3>
+        <button class="new-discussion" onclick="window.location.href='newDiscussion.html'">+ New Discussion</button>
+        
+        <div class="dashboard-sections">
+            <div class="categories">
+                <h4>Categories</h4>
+                <button>Web Development</button>
+                <button>AI/ML</button>
+                <button>Programming</button>
+                <button>App Development</button>
+            </div>
+            <div class="recent-discussions">
+                <h4><a href="discussion.html" class="highlight-text">Recent Discussions</a></h4>
+                <div class="discussion-box">Loading discussions...</div>
+            </div>
+            <div class="leaderboard">
+                <h4>Leaderboard</h4>
+                <div class="leaderboard-box">Loading leaderboard...</div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Coding Ninjas 10X Club | All rights reserved.</p>
+    </footer>
+    
+    <script src="./js/dashboard.js"></script>
+</body>
+</html>

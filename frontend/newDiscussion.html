@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Discussion</title>
+    <link rel="stylesheet" href="./css/newDiscussion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="search-container">
+            <input type="text" placeholder="Type here...">
+            <button>Search</button>
+        </div>
+        <div class="icons">
+            <span><a href="dashboard.html"><i class="fas fa-home"></i></a></span>
+            <span><a href="profile.html"><i class="fas fa-trophy"></i></a></span>
+            <span><a href="profile.html"><i class="fas fa-user"></i> </a>Profile</span>
+        </div>
+    </div>
+
+    <div class="discussion-page">
+        <div class="side-bar">
+            <button class="prev-discussions">Previous Discussions</button>
+            <ul id="previous-discussions-list"></ul>
+        </div>
+
+        <div class="main-content">
+            <div class="new-discussion" id="discussion-box">
+                <h2>New Discussions</h2>
+                <p>Welcome to New Discussion</p>
+                <div class="messages" id="discussion-messages"></div>
+                <div class="input-bar">
+                    <input type="text" id="discussion-input" placeholder="Post here">
+                    <button id="post-btn"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+
+            <div class="ask-mentor" id="mentor-panel">
+                <h2>Ask Mentor</h2>
+                <select>
+                    <option>Choose Category</option>
+                    <option>Web Development</option>
+                    <option>AI/ML</option>
+                    <option>Programming</option>
+                    <option>App Development</option>
+                </select>
+                <div class="messages" id="mentor-messages"></div>
+                <div class="input-bar">
+                    <input type="text" id="mentor-input" placeholder="Ask mentor">
+                    <button id="mentor-btn"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="ask-mentor-btn">Ask a Mentor</button>
+
+    <script src="./js/newDiscussion.js"></script>
+</body>
+</html>

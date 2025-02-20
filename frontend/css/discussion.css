@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #333;
+}
+
+.search-container input {
+    padding: 8px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-container button {
+    padding: 8px 12px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.new-discussion {
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.discussion-container {
+    display: flex;
+    padding: 20px;
+}
+
+.discussion-list {
+    width: 40%;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.discussion-item {
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.discussion-item:hover {
+    background: #444;
+}
+
+.discussion-details {
+    width: 60%;
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.message-box {
+    position: absolute;
+    bottom: 10px;
+    width: 95%;
+    display: flex;
+    gap: 10px;
+}
+
+.message-box input {
+    width: 80%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.message-box button {
+    padding: 8px 12px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.messages {
+    margin-top: 20px;
+    padding: 10px;
+    background: #333;
+    border-radius: 5px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.summary-box {
+    background: #444;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: none;
+}
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 10px;
+}
+
+.nav-btn {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-btn:hover {
+    color: #007BFF;
+}
