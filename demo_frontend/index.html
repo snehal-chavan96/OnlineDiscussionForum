@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <script defer src="script.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        input, button { margin: 10px; padding: 10px; width: 200px; }
+    </style>
+</head>
+<body>
+
+    <h2>User Login & Registration</h2>
+
+    <!-- Register Form -->
+    <h3>Register</h3>
+    <input type="text" id="register-username" placeholder="Enter Username">
+    <input type="password" id="register-password" placeholder="Enter Password">
+    <button onclick="registerUser()">Register</button>
+
+    <!-- Login Form -->
+    <h3>Login</h3>
+    <input type="text" id="login-username" placeholder="Enter Username">
+    <input type="password" id="login-password" placeholder="Enter Password">
+    <button onclick="loginUser()">Login</button>
+
+    <p id="message"></p>
+
+</body>
+</html>
