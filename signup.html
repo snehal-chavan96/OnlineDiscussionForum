@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./css/signup.css">
+</head>
+<body>
+    <div class="signup-container">
+        <h2>Sign Up</h2>
+
+        <!-- Signup Message Display -->
+        <h6 id="signup-message" style="color: red;"></h6>
+
+        <form id="signup-form">
+            <div class="input-group">
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="full_name" required>
+            </div>
+
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="input-group">
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+
+            <div class="input-group">
+                <label for="role">Choose Role:</label>
+                <select id="role" name="role">
+                    <option value="student">Student</option>
+                    <option value="mentor">Mentor</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Interests & Skills:</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="interests" value="Java"> Java</label>
+                    <label><input type="checkbox" name="interests" value="App Development"> App Development</label>
+                    <label><input type="checkbox" name="interests" value="AI/ML"> AI/ML</label>
+                    <label><input type="checkbox" name="interests" value="Web Development"> Web Development</label>
+                    <label><input type="checkbox" name="interests" value="DSA"> DSA</label>
+                    <label><input type="checkbox" name="interests" value="Other"> Other</label>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the Terms & Privacy Policy</label>
+            </div>
+
+            <button type="submit">Sign Up</button>
+            <p>Already have an account? <a href="/signin.html">Sign In</a></p>
+        </form>
+    </div>
+
+    <script src="./js/signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+.search-container input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-container button {
+    padding: 10px;
+    background: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.discussion-page {
+    display: flex;
+    height: calc(100vh - 50px);
+}
+
+.side-bar {
+    width: 200px;
+    background: #121212;
+    padding: 20px;
+}
+
+.prev-discussions {
+    background: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.new-discussion, .ask-mentor {
+    flex: 1;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.post-bar, .ask-bar {
+    display: flex;
+    margin-top: 20px;
+}
+
+.post-bar input, .ask-bar input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.post-bar button, .ask-bar button {
+    padding: 10px;
+    background: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ask-mentor {
+    display: none; /* Hidden by default */
+}
+
+#ask-mentor-btn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
