@@ -2,6 +2,27 @@
 
 A centralized, AI-powered platform for structured coding discussions, mentorship, and collaboration.  
 
+## 🎥 UI Demo Video
+
+[Watch the UI Demo Video]([https://drive.google.com/file/d/12KUOJLqX8TyvHyFzhcpf9JgSxf4TQ8Gg/view?usp=drive_link])
+
+## Screenshots
+
+### Dashboard Page
+![Dashboard](screenshots/dashboard.png)
+
+### SignUp Page
+![SignUp Page](screenshots/signUp.png)
+
+### SignIn Page
+![SignIn Page](screenshots/signIn.png)
+
+### Discussion Page
+![Discussion Page](screenshots/discussion.png)
+
+### New Discussion & Ask Mentor Page
+![New Discussion & Ask Mentor Page](screenshots/newDiscussion.png)
+
 ## 🔍 Problem Overview  
 Students often face unorganized coding discussions across multiple platforms (WhatsApp, Discord, LinkedIn), making mentorship and collaboration difficult. This forum provides a structured, interactive space for seamless learning and engagement.  
 
