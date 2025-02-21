@@ -2,9 +2,8 @@
 
 A centralized, AI-powered platform for structured coding discussions, mentorship, and collaboration.  
 
-## 🎥 UI Demo Video
-
-![Watch the UI Demo Video](frontend/screenshots/DiscussionForum_UI_Demo.mp4)
+## 🎥 UI Demo Video  
+Watch the UI Demo Video: [Click Here](https://drive.google.com/file/d/12KUOJLqX8TyvHyFzhcpf9JgSxf4TQ8Gg/view?usp=drive_link)
 
 ## Screenshots
 
